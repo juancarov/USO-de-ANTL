@@ -139,6 +139,8 @@ sudo apt install python3-antlr4
   }
 </pre>
 
+![Salida Calc Python](Salida%20Calc.png)
+
 Se siguió unicamente el paso a paso del libro "The Definitive ANLTLR4 Reference", donde se implementó una gramatica, donde definimos tokens y un lenguaje, para luego usar un Visitor que nos genera los archivos necesarios para que el main ejecute la calculadora.
 
 --- 
@@ -459,6 +461,6 @@ if __name__ == '__main__':
     main(sys.argv)
 </pre>
 
-![Salida Calc Python](Salida%20Calc%20Java.png)
+![Salida Calc Python](Salida%20Calc%20Py.png)
 
 Este proyecto muestra cómo construir una calculadora usando ANTLR tanto en Java como en Python, partiendo de un ejemplo sencillo de expresiones aritméticas y extendiéndolo con funciones matemáticas (seno, coseno, logaritmos, raíz cuadrada) y operaciones adicionales como el factorial. En Java se utiliza el patrón visitor para recorrer el árbol de análisis y calcular los resultados, mientras que en Python el flujo es más directo pero con la misma lógica. La principal diferencia radica en la forma de compilar y ejecutar: en Java se requiere generar las clases con ANTLR, compilarlas con javac y luego correr el programa con java, mientras que en Python basta con generar los archivos y ejecutar el script. En ambos casos, el uso de ANTLR permite separar claramente la definición de la gramática de la lógica de evaluación, haciendo que el proyecto sea extensible y fácil de mantener.
