@@ -352,6 +352,8 @@ El visitor básico de la calculadora solo implementa operaciones aritméticas si
 
 El main mantiene la misma estructura del ejemplo, ya que unicamente llama los demás archivos con el fin de que se ejecute todo junto.
 
+![Salida Calc Python](SalidaCalcJava.png)
+
 ---
 
 Implemente la misma calculadora, pero usando python como lengiaje objetivo.
